@@ -1,0 +1,690 @@
+.container {
+    padding-left: 400;
+    padding-right: 400;
+    padding-top: 0;
+    width: 100% + 10px;
+    background-image: url(img/meFlip.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.sections h1 {
+    text-align: left;
+    color: black;
+    font-weight: lighter;
+    width: max-content;
+    padding: 3px;
+    margin: 0 auto;
+    margin-left: 0;
+    
+}
+
+
+#me p{ 
+    text-align: left;
+    color: black;
+    line-height: 30px;
+}
+
+.resumeHeader {
+    display: inline-flex;
+    width: 980px;
+
+}
+
+.resumeHeader a {
+    width: 55px;
+    height: 55px;
+    background-image: url(/img/download.png);
+    margin-top: 6px;
+    background-size: cover;
+}
+
+
+body {
+    background: rgba(0, 0, 0, 0.927);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    height: 800px;
+   text-align: center;
+    
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.tile {
+    margin-left: 40px;
+    height: 220px;
+    width: 250px;
+    text-align: center;
+    font-style: 50px;
+    float: left;
+    vertical-align: middle;
+    line-height: 220px;
+    
+}
+
+
+
+
+.tile:nth-child(1) {
+    margin-left: 0px;
+}
+
+.clickBox {
+    height: 220px;
+    widows: 250px;
+}
+
+.tile button{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width: 250px;
+    height: 250px;
+    border: none;
+    color: white;
+    background: black;
+}
+
+h6 {
+    line-height: 27px;
+    font-weight: lighter;
+    text-align: left;
+    color: lightgray;
+    font-size: 20px;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.meSection {
+    display: inline-flex;
+}
+
+.sections {
+    height: max-content;
+    display: none;
+    
+    text-align: center;
+    vertical-align: baseline;
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.sections#resume {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.tile:nth-child(3) button {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/resume-icon.png);
+    
+}
+
+.tile:nth-child(2) button {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/proj-icon.jpg);
+    
+}
+
+.vert {
+    border-right-color: black;
+    border-right: solid;
+    border-right-width: 1px;
+    
+}
+
+.sections h2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+    margin: 0 auto;
+    color: black;
+    align-self: center;
+}
+
+.gmail {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    background-image: url(/img/gmail-icon.png);
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.phonenumber {
+    padding-left: 300px;
+    color: white;
+}
+
+.resumeSec {
+    background-color: white;
+    align-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    width: 250px;
+    display: inline-block;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: left;
+    vertical-align: top;
+    
+}
+
+.resume {
+    align-items: center;
+}
+
+#resume.sections {
+    margin: 40px;
+}
+
+.resumeSec h3 {
+    border-bottom: solid;
+    color: black;
+    border-bottom-color: rgb(36, 137, 199);
+    width: 350px;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: circle;
+}
+ 
+.blue {
+    color: rgb(36, 137, 199) ;
+    margin-top: 0;
+    width: 300px;
+    margin-bottom: 0;
+    
+    text-align: right;
+}
+
+.skillContainer {
+    display: inline-flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.skills {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    padding: 2px;
+    margin-right: 5px;
+    width: max-content;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(36, 137, 199) ;
+    background-color: rgb(36, 137, 199) ;
+    color: white;
+    font-size: 20px;
+    height: 25px;
+}
+
+#bio {
+    color: lightgray;
+    font-size: 23px;
+    margin-bottom: -25px;
+}
+
+.interests {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    padding: 2px;
+    margin-right: 5px;
+    width: max-content;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: white;
+    border-color: rgb(36, 137, 199) ;
+    color: rgb(36, 137, 199) ;
+    font-size: 20px;
+    height: 25px;
+}
+
+
+.small {
+    font-size: 17px;
+    display: inline-flexbox;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+
+}
+
+.courses {
+    padding-left: 6px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    border-left-color: blue;
+    border-left: solid;
+    width: 300px;
+    text-align: left;
+}
+
+.contact {
+    font-size: 13px;
+    display: inline-flexbox;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 3px;
+    text-align: left;
+    
+}
+
+h4 {
+    font-weight: lighter;
+    margin-top: 0;
+    font-size: 30px;
+    width: 430px;
+    margin-bottom: 0;
+}
+
+li {
+    font-weight: bolder;
+    font-size: 30px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.emailButton {
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: left;
+    display: inline-flex;
+    align-content: left;
+}
+
+#email {
+    padding-right: 45px;
+    text-align: left;
+    width: min-content;
+    color: white;
+}
+
+.languages {
+    margin-top: 3px;
+    margin-bottom: px;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 10px;
+    display: inline-flex;
+    text-align: left;
+}
+
+.lang {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    width: 120px;
+    margin-left: 10px;
+    display: inline-block;
+    border-bottom: dotted;
+    border-bottom-color: rgb(36, 137, 199);
+}
+
+.graphic {
+    margin-top: 0px;
+    align-items: left;
+    display: inline-flex;
+    width: 125px;
+    height: 25px;
+    margin-left: 0;
+    margin-bottom: 4px;
+}
+
+.edots {
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 15px;
+    width: 15px;
+    border-color: rgb(36, 137, 199);
+    background-color: white;
+    border-radius: 50%;
+    border-width: thin;
+    border-style: solid;
+}
+
+.dots {
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(36, 137, 199);
+    border-radius: 50%;
+    border-color: rgb(36, 137, 199);
+    border-width: thin;
+    border-style: solid;
+}
+
+.house {
+    line-height: 30px;
+    align-items: right;
+    
+}
+
+.resp {
+    
+    font-weight: normal;
+    font-size: 17px;
+    width: 350px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.tile:nth-child(4) button {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/handshake.png);
+    
+}
+
+.tile:nth-child(1) button {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/selfie.png);
+}
+
+
+.cicons {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flexbox;
+    
+    
+}
+
+.cicons img {
+    height: 90px;
+    width: 90px;
+    padding-left: 450px;
+}
+
+.nameNav {
+    text-align: right;
+    font-size: 10px;
+    padding-right: 300px;
+    
+}
+
+.socialIcons {
+    
+    width: 100%;
+    
+}
+
+nav img {
+    height: 15px;
+    widows: auto;
+    padding-top: 9px;
+    margin-left: 0;
+}
+
+nav {
+    padding-left: 5px;
+    display: inline-flex;
+    position: fixed;
+    
+    padding-top: 0;
+    text-align: right;
+    width: 100%;
+    
+}
+
+.tileContainer {
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: slideIn;
+    animation-duration: 4s;
+}
+
+main {
+    
+    display: flex;
+    padding-top: 60px;
+    text-align: center;
+    
+    padding-bottom: 60px;
+    
+    background-size: cover;
+}
+footer {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 90px;
+}
+
+.title h1 {
+    padding-left: 6px;
+    font-size: 55px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: fadeIn;
+    animation-duration: 14s;
+    text-align: center;
+}
+
+
+.title h2 {
+    font-size: 85px;
+    color: lightskyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+footer p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    color: darkgray;
+
+}
+
+button {
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a img{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20%;
+    width: 22px;
+    height: 22px;
+    
+
+}
+
+.proj1 {
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+#logo {
+    max-width: 250px;
+    height: auto;
+    margin-left: 50px;
+    margin-left: 0;
+   
+}
+
+.screenshot {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.intro h2{
+    margin-left: 20px;
+    font-style: italic;
+    text-align: left;
+    width: max-content;
+    padding-left: 0;
+    margin-top: 10px;
+    width: 310px;
+    color: lightskyblue;
+}
+
+.intro h1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    width: 330px;
+    color: lightskyblue;
+} 
+
+.writing {
+    width: 800px;
+    text-align: left;
+    margin-right: 10px;
+    border-left-width: 0.25px;
+    border-left: solid;
+    border-left-color: lightskyblue;
+    border-radius: 10px;
+    
+}
+
+.centerEmail h6 {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.project{
+    line-height: 27px;
+    color: lightgray;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+.date {
+    font-style: 10px;
+    color: lightgrey;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.intro {
+    margin-left: 0;
+    text-align: left;
+
+}
+
+.intro a {
+    font-size: 24px;
+    text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgba(135, 206, 250, 0.562);
+    color: black;
+    text-align: center;
+    margin-left: 20px;
+    padding: 4px;
+    background-color: rgba(135, 206, 250, 0.562);
+}
+
+.unix {
+    display: inline-flex;
+}
+
+.proj2 {
+    display: inline-flex;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#c {
+    max-width: 200px;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 0;
+   margin-top: 80px;
+  
+}
+
+.spacer {
+    height: 300px;
+}
+
+#downloadRe {
+    
+    margin: auto;
+    margin-top: 10px;
+}
+
+.writing li{
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0;
+    width: 300px;
+    color: lightgray;
+}
+
+.reivewTitle {
+    color: whitesmoke;
+    font: italic;
+    padding-top: 15px;
+    line-height: 0px;
+    padding-left: 3px;
+}
+
+@keyframes slideIn {
+    from {transform: translate(1000px,0px);}
+    to {transform: translate(0px,0px);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+html {
+    scroll-behavior: smooth;
+}

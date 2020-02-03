@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ethan richards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="img/initials.png" alt="er">
+        </div>
+        <div class="socialIcons">
+            <a class= "social" href="https://www.facebook.com/ethan.richards.355" target="_blank"><img src="img/f-icon.png" alt="facebook"></a>
+            <a class= "social" href="https://www.instagram.com/_itserich2" target="_blank"><img src="img/i-icon.png" alt="instagram"></a>
+            <!--<a class= "social" href="#" target="_blank"><img src="img/l-icon.png" alt="linkedin"></a>-->
+         </div>
+    </nav>
+   
+    <div class="container">
+
+        <header class="title">
+            <h1 style="text-align:left;float:left;">hi. i'm</h1>
+            <h2 style="text-align:right;float:left;">ethan richards.</h2>
+            
+
+        </header>
+    </div>
+        <main>
+
+            <div class="tileContainer">
+                <div class="tile">
+                    <button class="tile" onmouseover="openSection(event, 'me')">
+                        <div class="clickBox">M e</div>
+                    </button>
+                </div>
+                <div class="tile">
+                    <button class="tile" onmouseover="openSection(event, 'projects')">
+                        <div class="clickBox">P r o j e c t s</div>
+                    </button>
+                </div>
+                <div class="tile">
+                    <button class="tile" onmouseover="openSection(event, 'resume')">
+                        <div class="clickBox">R e s u m e</div>
+                    </button>
+                </div>
+                <div class="tile">
+                    <button class="tile" onmouseover="openSection(event, 'contact')">
+                        <div class="clickBox">C o n t a c t</div>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+
+        <div id="me" class="sections">
+            <div>
+                <h1 id="bio">What?</h1>
+                <h6>
+                    I am aiming to work on team-orientated projects, where we'll be handling client data, product designing, developing, and testing.
+                     I prefer a fast-paced work environment and am a quick learner. I approach all my projects with passion, knowing that it attaches 
+                     my name to my team's work. I have a comprehensive understanding of Python, C, and Swift. I have a working knowledge of HTML, CSS, and 
+                     JavaScript with a basic understanding of R.
+                </h6>
+            </div>
+            <div class="meSection">
+                <div class="biography">
+                    <h1 id="bio">Why?</h1>
+                    <h6>
+                        My first coding class was in 8th grade, the lessons were based on simple web design and I honestly didn't use the HTML 
+                        for the next 4 years. Back then I didn't have any interest in programming, but when I got to college I grew tired of being a classic user.
+                         I was tired of not knowing what was going on under the hood.
+                    </h6>
+                      <h6>
+                        When I enrolled in my first college programming course, we were learning Python and I was expecting that I could catch on pretty quickly
+                        as I did throughout high school. 
+                      </h6>
+                         <h6>
+                            That was not the case.
+                         </h6>
+                        <h6>
+                            The first 2 weeks were brutal, I was up sleepless nights attempting to get 'in the groove' and develop my understanding of Python
+                             and a helpful programming ethic. After 2 weeks I was seeing results, and I was hooked. I completely dove in, I started researching 
+                             other languages and the uses for them. I knew that this is what I want to do for the rest of my life, plain and simple.
+                        </h6>
+                         
+                </div>
+                <div class="bioImg">
+                    <img src="/img/ice rink.jpg" alt="">
+                </div>    
+            </div>
+            
+        </div>
+
+
+        <div id="projects" class="sections">
+           
+            <div class="proj1">
+                <div class="screenshot">
+                    <img id="logo" src="img/uopondlogo.png" alt="logo">
+                </div>
+                <div class="intro">
+                    <h1>A Peer Marketplace</h1>
+                    <h2 class="intro">made for students, by students</h2>
+                    <p class="date">11/2018 - 01/2020</p>
+                    <a href="https://bitbucket.org/erich2/uopond1.1.2/src/master/" target="_blank">Git Repository</a>
+                </div>
+                <div class="writing">
+                <p class="project">I was walking down the quad last fall watching students throw away perfectly good furniture from their dorms and wondering why they weren't 
+                    attempting to squeeze value out of what they had. I wanted to help people out, to give them more options with the items they don't need anymore.
+                </p>
+                <p class="project">
+                    I wanted to create a solution, to give my peers a network for specifically selling their used or unused dorm items
+                    that are being constantly rebought year after year.
+                </p>
+                <p class="project">
+                    First... I designed a UI that catered to the user in the most trusting way, resembling
+                    that of the simple and clean iOS design elements. 
+                </p>
+                <p class="project">
+                    Secondly... I enrolled in a few online courses outside of class, and spent countless hours learning Swift and becoming farmiliar with
+                    Xcode.
+                </p>
+                <p class="project">
+                    Third... I integrated Google's Firebase so that I can use a realtime database to manage the users
+                    saved data, as well as share their listings and communicate with one another.
+                </p>
+                <p class="project">
+                    Lastly... I brought it all together, I put myself in the users perspective. To allow them to access features that they wouldn't only need but features that would 
+                    simplify and better their experience.
+                </p>
+                </div>
+            </div>
+            <div class="proj2">
+                <div class="unix">
+                    <div class="titleImage">
+                            <img id="c" src="/img/c-icon.png" alt="c-language icon">
+                    </div>
+                    <div class="intro">
+                        <h1>Mapping Company Info.</h1>
+                        <h2 class="intro">loading and fetching three thousand lines of info</h2>
+                        <p class="date">10/2019 - 11/2019</p>
+                        <a href="https://bitbucket.org/erich2/companyinfomap/src/master/" target="_blank">Git Repository</a>
+                    </div>
+                    <div class="writing">
+                        <p class="project">
+                            For my CIS final project, we were given a list of 3,000+ companies that includes:</p>
+                            <ul>
+                                <li>Company Name</li>
+                                <li>Company Symbol</li>
+                                <li>Last Sale</li>
+                                <li>Marekt Cap</li>
+                                <li>IPO Year</li>
+                                <li>Sector</li>
+                                <li>Industry</li>
+                                <li>URL for Summary Quote</li>
+                            </ul>
+                        <p class="project">
+                            I was tasked to create data structures to store the data per company and then fetch the structure once storing from the CSV input file is complete. My goal was to do this as fast as possible, so I implemented functions in order to store and fetch each either linked lists or hashing. 
+                            
+                        </p>
+                        <p class="reivewTitle">My end project review:</p>
+                        <p class="project">	I chose the Double Hash function that uses the return value 
+                            with prime - (key % prime) and the prime number being 7 because,
+                            the nature of prime numbers reduces the common factor between
+                            indicies which in turn would reduce the amount of collisions 
+                            while inserting values into the hashtable. Implementing the 
+                            linked list to achieve the same results as the hash table showed
+                            me that linked lists are not as efficient as I believed going
+                            into this project. The time shows that, the linked list took 
+                            20 times longer to Store and Fetch the 3,400 companies from the 
+                            CSV file. Simply because you have to iterate through each node
+                            in the linked list to point to the next node which slows down
+                            the process immensley. </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="resume" class="sections">
+            <div class="resumeHeader">
+                <a id="downloadRe" href="/EthanRichardsResume.pdf" download="/EthanRichardsResume.pdf"></a>
+            </div>
+            <div class="resume">
+                <p>Self-driven, self-taught, team-orientated programmer aspiring to work on innovative group work for real world solutions.</p>
+                <div class="resumeSec">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelor's of Science</li>
+                        <h4>University of Oregon</h4>
+                        <p class="blue">2017 - Present</p>
+                        <div class="courses">
+                            <p> courses</p>
+                            <ul>
+                                <li class="small">Computer Science (Major)</li>
+                                <li class="small">Finance (Major)</li>
+                                <li class="small">Economics (Minor)</li>
+                                <li class="small">3.25 GPA</li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <h3>Work Experience</h3>
+                    <ul>
+                        <li>Operations Team Member</li>
+                        <h4>Lifetime Fitness</h4>
+                        <p class="blue">08/2019 - 01/2020 | Bellevue, WA</p>
+                        <p class="small">Athletic Club</p>
+                        <div class="courses">
+                            <p> Responsibilities/Tasks</p>
+                            <ul>
+                                <li class="small">Organizing and cleaning</li>
+                                <li class="small">Creating relationships with club members through excellent customer service</li>
+                            </ul>
+                            <p class="contact">Contact: Emily Freeman - (480) 388-0908</p>
+                        </div>
+                        <li>Warehouse Associate</li>
+                        <h4>Amazon</h4>
+                        <p class="blue">06/2019 - 08/2020 | Renton, WA</p>
+                        <div class="courses">
+                            <p> Responsibilities/Tasks</p>
+                            <ul>
+                                <li class="small">Efficiently and safely maintained quality control</li>
+                                <li class="small">Tracking product orders</li>
+                                <li class="small">Actively demonstrated multiple walk throughs for new hires</li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <h3>Soft Skills</h3>
+                    <div class="skillContainer">
+                        <p class="skills">Communication</p>
+                        <p class="skills">Determination</p>
+                        <p class="skills">Flexibility</p>
+                    </div>
+                    <div class="skillContainer">
+                        <p class="skills">Solution-Minded</p>
+                    </div>
+                    <h3>Interests</h3>
+                    <div class="skillContainer">
+                        <p class="interests">Fitness</p>
+                        <p class="interests">Traveling</p>
+                        <p class="interests">Tech</p>
+                        <p class="interests">Music</p>
+                    </div>
+                </div>
+                <div class="resumeSec">
+                    <h3>Technical Skills</h3>
+                    <div class="skillContainer">
+                        <p class="skills">Word</p>
+                        <p class="skills">Excel</p>
+                        <p class="skills">PowerPoint</p>
+                        <p class="skills">Visual Studio</p>
+                    </div>
+                    <div class="skillContainer">
+                        <p class="skills">Unix</p>
+                        <p class="skills">Windows</p>
+                        <p class="skills">Tableau</p>
+                    </div>
+                        
+                    <h3>Personal Projects</h3>
+                    <h4>iOS Application Development</h4>
+                    <p class="blue">11/2018 - 01/2020</p>
+                    <ul>
+                        <li class="resp">Created marketplace application for students at the U. of O.</li>
+                        <li class="resp">Identified that students need to connect and sell their used goods</li>
+                        <li class="resp">Learned Swift, how to manipulate data structures</li>
+                        <li class="resp">Designed UI/UX</li>
+                        <li class="resp">Implemented APIs, programmed in Swift with minimal Objective-C</li>
+                    </ul>
+                    <h4>Mapping Company Information</h4>
+                    <p class="blue">10/2019 - 11/2019</p>
+                    <ul>
+                        <li class="resp">Reading a CSV file of company information</li>
+                        <li class="resp">Double hashing the information into a mapped data structure</li>
+                        <li class="resp">Implement another map based on linked lists</li>
+                        <li class="resp">Reported which map type stored and fetch the entire workload most effectively</li>
+                        <li class="resp">Utilized: C</li>
+                    </ul>
+                    <h3>Languages</h3> 
+                    <div class="languages">
+                        <div class="langWords">
+                        <p class="lang">Swift</p>
+                        <p class="lang">Python</p>
+                        <p class="lang">C</p>
+                        <p class="lang">HTML5/CSS</p>
+                        <p class="lang">JavaScript</p>
+                        <p class="lang">R</p>
+                        </div>
+                        <div class="house">
+                            <div class="graphic">
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="edots"></span>
+                            </div>
+                            <div class="graphic">
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="edots"></span>
+                            </div>
+                            <div class="graphic">
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="edots"></span>
+                                <span class="edots"></span>
+                            </div>
+                            <div class="graphic">
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="edots"></span>
+                                <span class="edots"></span>
+                            </div>
+                            <div class="graphic">
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="edots"></span>
+                                <span class="edots"></span>
+                                <span class="edots"></span>
+                            </div>
+                            <div class="graphic">
+                                <span class="dots"></span>
+                                <span class="dots"></span>
+                                <span class="edots"></span>
+                                <span class="edots"></span>
+                                <span class="edots"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Organizations</h3>
+                    <ul>
+                        <li>Lambda Chi Alpha</li>
+                        <p class="blue">09/2017 - Present</p>
+                        <p class="small">High Sigma - Chapter Academic Chair</p>
+                        <li>Lundquist College of Business</li>
+                        <p class="blue">03/2019 - Present</p>
+                        <p class="small">Studying Finance in the U. of O. College of Business</p>
+                    </ul>
+                </div>
+    
+                
+            </div>
+        </div>
+
+
+        <div id="contact" class="sections">
+           <div class="centerEmail">
+            <h6>Email Me For Further Questions</h6>
+           </div>
+
+            <div class="cicons">
+                <a class= "gmail" href="mailto:ethanrichards52@gmail.com" target="_blank"></a>
+                <!--<img src="img/cellphone-icon.png" alt="cellphone">-->
+            </div>
+            <!--<div class="emailButton">
+                <p id="email">ethanrichards52@gmail.com</p>
+                <p class="phonenumber">(425) 922-9092</p> 
+            </div>-->
+            <div class="centerEmail">
+                <h6>ethanrichards52@gmail.com</h6>
+            </div>
+            <div class="spacer">
+
+            </div>
+        </div>
+
+
+
+        <footer>
+                <p>Ethan Richards Creation, 2020 Copyright</p>
+        </footer>
+
+        <script>
+            function hide() {
+                var i, tabcontent;
+                tabcontent = document.getElementsByClassName("sections");
+                for (i = 0; i < tabcontent.length; i++){
+                    tabcontent[i].display = "none";
+                }
+            }
+
+            window.onload = hide();
+
+            function openSection(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("sections");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                    
+                }
+
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("sections");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    
+                }
+
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+                window.scrollTo(0,550);
+                }
+        
+        </script>
+
+
+</body>
+</html>
+
+
+
