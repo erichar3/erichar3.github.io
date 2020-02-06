@@ -76,7 +76,7 @@ header {
     float: left;
     vertical-align: middle;
     line-height: 220px;
-    
+    box-shadow:  12px 0 15px -4px rgba(0, 0, 0, 0.8), -12px 0 15px -4px rgba(0, 0, 0, 0.8);
 }
 
 
