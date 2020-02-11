@@ -12,7 +12,7 @@
 
 * {
     padding: 0;
-   
+    margin: 0;
 }
 
 .sections h1 {
@@ -109,6 +109,7 @@ header {
 
 h6 {
     line-height: 27px;
+    padding: 20px;
     font-weight: lighter;
     text-align: left;
     color: lightgray;
@@ -604,6 +605,7 @@ nav a img{
     color: lightgray;
     padding-left: 10px;
     font-weight: lighter;
+    padding: 20px;
 }
 
 .date {
