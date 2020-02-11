@@ -3,11 +3,16 @@
     padding-right: 400;
     padding-top: 0;
     width: 100% + 10px;
-    background-image: url(img/meFlip.png);
+    background-image: url(img/cislib-darker.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 0;
     margin-left: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
 .sections h1 {
@@ -492,23 +497,24 @@ footer {
     padding-top: 90px;
 }
 
-.title h1 {
-    padding-left: 6px;
-    font-size: 55px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    animation-name: fadeIn;
-    animation-duration: 14s;
-    text-align: center;
-}
 
+
+.title {
+    padding-top: 300px;
+    height: 500px;
+}
 
 .title h2 {
     font-size: 85px;
-    color: lightskyblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-family: 'retro', 'Times New Roman', Times, serif;
     text-align: center;
-    
+    border-color: white;
+    border: solid;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 footer p {
