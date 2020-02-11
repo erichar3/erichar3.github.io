@@ -223,6 +223,8 @@ p {
 
 ul {
     list-style-type: circle;
+    padding-left: 40px;
+    padding-top: 10px;
 }
  
 .blue {
@@ -591,7 +593,7 @@ nav a img{
     border-left: solid;
     border-left-color: lightskyblue;
     border-radius: 10px;
-    
+    padding-left: 15px;
 }
 
 .centerEmail h6 {
