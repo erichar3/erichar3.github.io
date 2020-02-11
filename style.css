@@ -107,6 +107,7 @@ header {
     background: black;
     border: white;
     border: solid;
+    border-width: 1px;
 }
 
 h6 {
@@ -523,6 +524,7 @@ footer {
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
+    border-width: 1px;
 }
 
 footer p {
