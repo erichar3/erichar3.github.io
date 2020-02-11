@@ -520,7 +520,7 @@ footer {
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
-
+    padding: 10px;
 }
 
 footer p {
