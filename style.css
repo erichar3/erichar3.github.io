@@ -571,7 +571,7 @@ nav a img{
 .proj1 {
     display: inline-flex;
     width: 100%;
-    
+    margin-right: 20px;
 }
 
 #logo {
@@ -609,12 +609,16 @@ nav a img{
 .writing {
     width: 800px;
     text-align: left;
-    margin-right: 10px;
+    margin-right: 0px;
     border-left-width: 0.25px;
     border-left: solid;
     border-left-color: lightskyblue;
     border-radius: 10px;
     padding-left: 20px;
+}
+
+.introFix {
+	padding-left: 20px;
 }
 
 .centerEmail h6 {
@@ -624,7 +628,7 @@ nav a img{
 }
 
 .project{
-    line-height: 27px;
+    line-height: 37px;
     color: lightgray;
     padding-left: 10px;
     font-weight: lighter;
